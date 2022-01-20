@@ -5,8 +5,8 @@
 }
 
 @media screen and (max-width: 600px) {
-  .main-box {
-    width: 100%;
-    padding: 50px 10px;
+  .app-container {
+    width: 80%;
+    padding: 0;
   }
 }

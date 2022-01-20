@@ -14,10 +14,3 @@
 .info-container {
   padding: 0 10px;
 }
-
-@media screen and (max-width: 600px) {
-  .list-item {
-    /* margin: 20px 0 10px 0;
-    border-radius: 50px; */
-  }
-}
