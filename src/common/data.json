@@ -2,6 +2,5 @@
   "heading": "Star Wars Characters",
   "searchPlaceholder": "Search by first or last name",
   "ladingText": "Loading ...",
-  "loadMoreButtonText": "Load More",
-  "errorText": "Something went wrong please check our internet connection and refresh the page."
+  "loadMoreButtonText": "Load More"
 }
