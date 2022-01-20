@@ -4,6 +4,7 @@ import BAButton from "../elements/BAButton";
 import BASearchField from "../elements/BASearchField";
 import ListItem from "./ListItem";
 import data from "../data.json";
+import { filterPeople } from "../utils";
 
 export default function List() {
   const [pageNumber, setPageNumber] = useState(1);
@@ -22,7 +23,9 @@ export default function List() {
 
   return (
     <section>
-      <BASearchField />
+      <BASearchField
+        onChange={(val) => filterPeople(val, people, setFilteredPeople)}
+      />
       {filteredPeople.map(
         (
           { name, gender, mass, skin_color, hair_color, eye_color, birth_year },
