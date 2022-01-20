@@ -1,0 +1,12 @@
+.app-container {
+  width: 75%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .main-box {
+    width: 100%;
+    padding: 50px 10px;
+  }
+}

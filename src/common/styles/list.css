@@ -1,0 +1,23 @@
+.list-item {
+  background-color: #272b30;
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0 10px 0;
+  border-radius: 20px;
+}
+
+.inline-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-container {
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .list-item {
+    /* margin: 20px 0 10px 0;
+    border-radius: 50px; */
+  }
+}

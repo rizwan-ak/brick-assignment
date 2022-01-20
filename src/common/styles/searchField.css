@@ -1,0 +1,10 @@
+.search-field {
+  border: none;
+  outline: none;
+  background-color: #3a3f44;
+  width: 100%;
+  font-size: 40px;
+  color: #fff;
+  border-bottom: 2px solid #ffe300;
+  padding: 5px 10px;
+}

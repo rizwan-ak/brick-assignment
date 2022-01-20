@@ -1,0 +1,23 @@
+.heading {
+  font-size: 48px;
+  color: #ffe300;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffe300;
+}
+
+.sub-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ffe300;
+}
+
+.loading {
+  font-size: 48px;
+  color: #ffe300;
+  text-align: center;
+  margin-top: 100px;
+}
